@@ -1,8 +1,23 @@
 aid: plenty
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plenty.png
 name: Plenty
-description: 'Plenty is a company surfaced as a portfolio company of dcm-ventures, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Plenty is an American indoor vertical farming company that grows produce such as leafy
+  greens and strawberries in controlled, climate-independent indoor facilities using proprietary
+  vertical growing systems, automation, and robotics. Headquartered in the San Francisco Bay Area and
+  founded in 2014, Plenty is backed by investors including SoftBank Vision Fund and DCM Ventures. It
+  was added to the API Evangelist network as a frontier-tech portfolio-company profile; the public
+  enrichment pass found no public developer platform, API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/plenty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Frontier Tech
+- Agriculture
+- Vertical Farming
+- AgTech
+- Indoor Farming
+- Food
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/plenty-domain-security.yml
 - type: Website
   url: http://plenty.ag/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
