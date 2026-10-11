@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "plenty",
+    "captured_at": "2026-10-11T192807",
+    "source_url": "http://plenty.ag/",
+    "source_type": "Website",
+    "file": "plenty-2026-10-11T192807.png",
+    "bytes": 33413,
+    "capture": "playwright-local"
+  }
+]
